@@ -126,3 +126,48 @@ footer{
         display:none;
     }
 }
+/* IMÁGENES DEL BLOG */
+figure{
+    margin:20px 0;
+}
+
+figure img{
+    width:100%;
+    border-radius:14px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Imagen principal */
+.img-principal img{
+    max-height:420px;
+    object-fit:cover;
+}
+
+/* Imágenes flotadas */
+.img-derecha{
+    float:right;
+    width:45%;
+    margin:0 0 15px 20px;
+}
+
+.img-izquierda{
+    float:left;
+    width:45%;
+    margin:0 20px 15px 0;
+}
+
+/* Limpia floats */
+section::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+@media(max-width:768px){
+    .img-derecha,
+    .img-izquierda{
+        float:none;
+        width:100%;
+        margin:15px 0;
+    }
+}
