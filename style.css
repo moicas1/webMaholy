@@ -19,7 +19,7 @@ body{
     line-height:1.7;
 }
 
-/* NAVBAR */
+/* NAVBAR FIJA */
 .navbar{
     position:fixed;
     top:0;
@@ -73,7 +73,6 @@ article{
 
 h3{
     color:var(--marron);
-    margin-bottom:10px;
 }
 
 p{
@@ -96,11 +95,42 @@ p{
     border-radius:10px;
 }
 
-/* CONCLUSION */
+/* REFLEXION */
 .reflexion{
-    background:#f5efe8;
+    background:#f6efe6;
     padding:30px;
     border-radius:14px;
+}
+
+/* COMENTARIOS */
+.comentarios{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    margin-top:20px;
+}
+
+.comentarios input,
+.comentarios textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.comentarios button{
+    background:var(--naranja);
+    color:#fff;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* BIBLIOGRAFIA */
+.bibliografia ul{
+    margin-left:20px;
 }
 
 footer{
