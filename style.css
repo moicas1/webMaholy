@@ -19,7 +19,7 @@ body{
     line-height:1.7;
 }
 
-/* NAVBAR FIJA */
+/* BARRA FIJA */
 .navbar{
     position:fixed;
     top:0;
@@ -45,22 +45,12 @@ body{
 .navbar a{
     color:#fff;
     text-decoration:none;
-    font-size:0.95rem;
 }
 
-/* HERO */
-.hero{
-    margin-top:80px;
-    background:linear-gradient(90deg,var(--amarillo),var(--naranja));
-    color:#fff;
-    padding:60px 20px;
-    text-align:center;
-}
-
-/* CONTENIDO */
+/* ESPACIO DESPUÉS DE LA BARRA */
 main{
     max-width:1000px;
-    margin:40px auto;
+    margin:120px auto 40px;
     padding:0 20px;
 }
 
@@ -73,17 +63,12 @@ article{
 
 h3{
     color:var(--marron);
+    margin-bottom:10px;
 }
 
 p{
     margin:15px 0;
     text-align:justify;
-}
-
-.imagen img{
-    width:100%;
-    border-radius:12px;
-    margin:20px 0;
 }
 
 .separador{
@@ -95,7 +80,7 @@ p{
     border-radius:10px;
 }
 
-/* REFLEXION */
+/* CONCLUSION */
 .reflexion{
     background:#f6efe6;
     padding:30px;
@@ -126,11 +111,6 @@ p{
     padding:10px 20px;
     border-radius:8px;
     cursor:pointer;
-}
-
-/* BIBLIOGRAFIA */
-.bibliografia ul{
-    margin-left:20px;
 }
 
 footer{
