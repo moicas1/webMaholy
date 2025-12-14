@@ -1,1 +1,1 @@
-# webMaholy
+# WEBMaholy

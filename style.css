@@ -1,0 +1,118 @@
+:root{
+    --amarillo:#FDC441;
+    --naranja:#EF852F;
+    --marron:#823D32;
+    --beige:#E3CFB4;
+    --fondo:#fffaf3;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:var(--fondo);
+    color:#333;
+    line-height:1.7;
+}
+
+/* NAVBAR */
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:var(--marron);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    z-index:1000;
+}
+
+.navbar h2{
+    color:#fff;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:18px;
+}
+
+.navbar a{
+    color:#fff;
+    text-decoration:none;
+    font-size:0.95rem;
+}
+
+/* HERO */
+.hero{
+    margin-top:80px;
+    background:linear-gradient(90deg,var(--amarillo),var(--naranja));
+    color:#fff;
+    padding:60px 20px;
+    text-align:center;
+}
+
+/* CONTENIDO */
+main{
+    max-width:1000px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+article{
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+h3{
+    color:var(--marron);
+    margin-bottom:10px;
+}
+
+p{
+    margin:15px 0;
+    text-align:justify;
+}
+
+.imagen img{
+    width:100%;
+    border-radius:12px;
+    margin:20px 0;
+}
+
+.separador{
+    border:none;
+    height:3px;
+    width:70px;
+    background:var(--naranja);
+    margin:30px 0;
+    border-radius:10px;
+}
+
+/* CONCLUSION */
+.reflexion{
+    background:#f5efe8;
+    padding:30px;
+    border-radius:14px;
+}
+
+footer{
+    background:var(--marron);
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+    .navbar ul{
+        display:none;
+    }
+}
